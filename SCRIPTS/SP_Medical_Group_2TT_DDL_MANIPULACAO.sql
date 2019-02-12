@@ -8,4 +8,3 @@ select * from PRONTUARIO;
 select * from SITUACAO;
 select * from TIPO_USUARIO;
 select * from USUARIOS;
-
