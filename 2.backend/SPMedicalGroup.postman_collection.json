@@ -1,0 +1,188 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SPMedicalGroup",
+		"_postman_id": "cfba63c5-b0c3-d52b-f290-299cf77a8271",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Usuários",
+			"description": "",
+			"item": [
+				{
+					"name": "Faz login",
+					"request": {
+						"url": "localhost:5000/api/login",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "",
+								"description": "",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Email\" : \"admin@admin.com\",\n\t\"Senha\" : \"123456\"\n}"
+						},
+						"description": "Logar no Usuário"
+					},
+					"response": []
+				},
+				{
+					"name": "Lista todos os Pacientes",
+					"request": {
+						"url": "localhost:5000/api/prontuarios",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwiZXhwIjoxNTUyNTkyNjk3LCJpc3MiOiJTUC5NRURJQ0FMLkdST1VQLldlYkFwaSIsImF1ZCI6IlNQLk1FRElDQUwuR1JPVVAuV2ViQXBpIn0.eyDQFkUgACY6jhD7g3ews3qPlEP40HcwKglxE-vK5UY",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": "Lista de todos os pacientes"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Médicos",
+			"description": "",
+			"item": [
+				{
+					"name": "Lista todos os Médicos",
+					"request": {
+						"url": "localhost:5000/api/medicos",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwiZXhwIjoxNTUyNTkyNjk3LCJpc3MiOiJTUC5NRURJQ0FMLkdST1VQLldlYkFwaSIsImF1ZCI6IlNQLk1FRElDQUwuR1JPVVAuV2ViQXBpIn0.eyDQFkUgACY6jhD7g3ews3qPlEP40HcwKglxE-vK5UY",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Consultas",
+			"description": "",
+			"item": [
+				{
+					"name": "Lista todas as consultas",
+					"request": {
+						"url": "localhost:5000/api/consultas",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwiZXhwIjoxNTUyNTkyNjk3LCJpc3MiOiJTUC5NRURJQ0FMLkdST1VQLldlYkFwaSIsImF1ZCI6IlNQLk1FRElDQUwuR1JPVVAuV2ViQXBpIn0.eyDQFkUgACY6jhD7g3ews3qPlEP40HcwKglxE-vK5UY",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Lista as consultas pelo médico",
+					"request": {
+						"url": "localhost:5000/api/consultas/usuario",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhlbGVuYS5zb3V6YUBzcG1lZGljYWxncm91cC5jb20uYnIiLCJqdGkiOiI0IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMiIsImV4cCI6MTU1MjU5NDAzNSwiaXNzIjoiU1AuTUVESUNBTC5HUk9VUC5XZWJBcGkiLCJhdWQiOiJTUC5NRURJQ0FMLkdST1VQLldlYkFwaSJ9.Bp-0ElHRbn4pPNFxkWWCdaXSwUQccwezbVKtLS5Z5xY",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Lista as consultas pelo Paciente",
+					"request": {
+						"url": "localhost:5000/api/consultas/usuario",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZXhhbmRyZUBnbWFpbC5jb20iLCJqdGkiOiI2IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMyIsImV4cCI6MTU1MjU5NTU4MiwiaXNzIjoiU1AuTUVESUNBTC5HUk9VUC5XZWJBcGkiLCJhdWQiOiJTUC5NRURJQ0FMLkdST1VQLldlYkFwaSJ9.4xKaguC2c7JfVicD1pTzSMyBVnbT9FxbrG4eXe5C0pE",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clínicas",
+			"description": "",
+			"item": [
+				{
+					"name": "Cadastrar nova clínica",
+					"request": {
+						"url": "localhost:5000/api/clinicas",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwiZXhwIjoxNTUyNTk1Nzg1LCJpc3MiOiJTUC5NRURJQ0FMLkdST1VQLldlYkFwaSIsImF1ZCI6IlNQLk1FRElDQUwuR1JPVVAuV2ViQXBpIn0.XkkZOHhrv7qhWyrUiqjK1j2HwcRXBUP4IDvQpGmdWUA",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Clínica Cândida\",\n    \"cnpj\": \"86400902000150\",\n    \"endereço\": \"Av. Barão Limeira, 536, São Paulo, SP\",\n    \"razaoSocial\": \"SP Medical Cândida\",\n    \"medicos\": []\n\t\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Listar todas as Clínicas",
+					"request": {
+						"url": "localhost:5000/api/clinicas",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwiZXhwIjoxNTUyNTk1Nzg1LCJpc3MiOiJTUC5NRURJQ0FMLkdST1VQLldlYkFwaSIsImF1ZCI6IlNQLk1FRElDQUwuR1JPVVAuV2ViQXBpIn0.XkkZOHhrv7qhWyrUiqjK1j2HwcRXBUP4IDvQpGmdWUA",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

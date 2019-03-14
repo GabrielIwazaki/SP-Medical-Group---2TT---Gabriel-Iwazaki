@@ -1,0 +1,14 @@
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\bin\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.deps.json
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\bin\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.runtimeconfig.json
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\bin\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.runtimeconfig.dev.json
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\bin\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.dll
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\bin\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.pdb
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\obj\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.csprojAssemblyReference.cache
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\obj\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\obj\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.RazorAssemblyInfo.cache
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\obj\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.RazorAssemblyInfo.cs
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\obj\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.AssemblyInfoInputs.cache
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\obj\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.AssemblyInfo.cs
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\obj\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\obj\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.dll
+C:\Users\49596753819\source\repos\SP.MEDICAL.GROUP.WebApi\SP.MEDICAL.GROUP.WebApi\obj\Debug\netcoreapp2.1\SP.MEDICAL.GROUP.WebApi.pdb
