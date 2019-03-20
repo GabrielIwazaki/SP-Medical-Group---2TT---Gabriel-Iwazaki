@@ -158,6 +158,31 @@
 						"description": ""
 					},
 					"response": []
+				},
+				{
+					"name": "Alterar Consulta",
+					"request": {
+						"url": "localhost:5000/api/consultas",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvYmVydG8ucG9zc2FybGVAc3BtZWRpY2FsZ3JvdXAuY29tLmJyIiwianRpIjoiMyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1FRElDTyIsImV4cCI6MTU1MzExMzk3MSwiaXNzIjoiU1AuTUVESUNBTC5HUk9VUC5XZWJBcGkiLCJhdWQiOiJTUC5NRURJQ0FMLkdST1VQLldlYkFwaSJ9.EK5pmAbIOrX_vVTd-EGnfKx1Hk1o4xSxC04ljTHPe4Y",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"id\": 15,\n        \"idProntuario\": 7,\n        \"idMedico\": 6,\n        \"dtConsulta\": \"2019-01-20T15:00:00\",\n        \"idSituacao\": 2,\n        \"descricao\": \"Paciente MORREU\"\n    \t\n    }"
+						},
+						"description": ""
+					},
+					"response": []
 				}
 			]
 		},
