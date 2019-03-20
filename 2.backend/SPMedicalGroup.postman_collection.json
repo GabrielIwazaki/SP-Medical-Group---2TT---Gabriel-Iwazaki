@@ -133,6 +133,31 @@
 						"description": ""
 					},
 					"response": []
+				},
+				{
+					"name": "Cadastra Consulta",
+					"request": {
+						"url": "localhost:5000/api/consultas",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBRE1JTiIsImV4cCI6MTU1MzExMjcyNywiaXNzIjoiU1AuTUVESUNBTC5HUk9VUC5XZWJBcGkiLCJhdWQiOiJTUC5NRURJQ0FMLkdST1VQLldlYkFwaSJ9.hiWoc01CBNmhJqVMTyCYTPAo1hMXToSXR4QxRcbR58k",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"idProntuario\": 7,\n        \"idMedico\": 6,\n        \"dtConsulta\": \"2020-01-20T15:00:00\",\n        \"idSituacao\": 3,\n    }"
+						},
+						"description": ""
+					},
+					"response": []
 				}
 			]
 		},
